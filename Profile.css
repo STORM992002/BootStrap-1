@@ -1,0 +1,31 @@
+
+:root{
+    --orange:#f77f00;
+    --blue:#023e8a;
+    --grey:rgb(53, 53, 53);
+}
+
+h6{
+    color: white !important;
+}
+p{
+    font-size: 12px !important;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:410px) {
+    h5{
+        font-size: 14px !important;
+        color: var(--white);
+    }
+    p{
+        font-size: 10px !important;
+    }
+}

@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+:root{
+    --black:#000;
+    --blue:#00b4d8;
+    --white:#fff;
+    --grey:#4c4b4b;
+    --bg1:rgba(249, 186, 69, 0.895);
+    --bg1dark:orange;
+    --bg2:rgb(246, 204, 211);
+    --bg2dark:pink;
+    --bg3:rgba(99, 216, 249, 0.769);
+    --bg3dark:rgb(0, 174, 255);
+    --bg4:rgba(86, 240, 222, 0.719);
+    --bg4dark:rgb(27, 238, 164);
+    --bg5:rgba(53, 242, 192, 0.662);
+    --bg5dark:rgb(66, 246, 168);
+    --bg6:rgba(56, 197, 253, 0.645);
+    --bg6dark:rgb(0, 170, 255);
+
+}
+
+
+.hidden-div {
+    display: none !important;
+    opacity: 0 !important;
+    transition: max-height 0.5s ease-in-out, opacity 0.5s ease-in-out;
+  }
+  
+  .visible-div {
+    display: block !important;
+    opacity: 1 !important;
+  }
+
+
+a{
+    text-decoration: none !important;
+}
+
+nav{
+  
+    width: 100vw;
+    height: 4rem;
+    background-color:var(--blue) ;
+}
+
+button ion-icon{
+    font-size: 40px;
+}
+footer{
+    width: 100vw;
+    height: 4rem;
+}
+footer p{
+   color: var(--black);
+    
+}
+
+@media screen and (max-width: 410px) {
+   h4{
+    font-size: 16px !important;
+   }
+    h5{
+    font-size: 15px !important;
+   }
+   img{
+    width: 40px;
+    height: 40px;
+   }
+   footer{
+    font-size: 12px !important;
+   }
+   ion-icon{
+    font-size: 22px !important;
+   }
+  }
+
+  @media screen and ( max-width:576px) and (min-width: 400px) {
+
+  .dashboard{
+    max-width: 410px !important;
+   }
+
+  }
+
+  @media screen and ( max-width:860px) and (min-width: 410px) {
+   h5{
+    font-size: 16px !important;
+   }
+ 
+   #subfeature{
+    bottom: 6rem !important;
+   
+   }
+   footer{
+    font-size: 13px !important;
+   }
+   ion-icon{
+    font-size: 25px !important;
+   }
+  }

@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --black: #000;
+  --blue: #00b4d8;
+  --white: #fff;
+  --grey: #4c4b4b;
+}
+
+a {
+  text-decoration: none !important;
+  color: var(--white) !important;
+}
+
+nav {
+  width: 100vw;
+  height: 10vh;
+  background-color: var(--blue);
+}
+
+button ion-icon {
+  font-size: 40px;
+}
+footer {
+  width: 100vw;
+  height: 10vh;
+}
+footer p {
+  color: var(--black) !important;
+}
+@media screen and (max-width: 410px) {
+  nav {
+    height: 3rem;
+  }
+  .arrow {
+    font-size: 20px !important;
+  }
+  .box {
+    width: 100vw !important;
+  }
+
+  label {
+    font-size: 12px !important;
+  }
+  h4 {
+    font-size: 15px !important;
+  }
+  h5 {
+    font-size: 12px !important;
+  }
+  h6 {
+    font-size: 13px !important;
+  }
+  p{
+    font-size: 11px !important;
+  }
+  input {
+    font-size: 11px !important;
+  }
+
+  footer {
+    font-size: 12px !important;
+  }
+  ion-icon {
+    font-size: 22px !important;
+  }
+}
+
+@media screen and (max-width: 860px) and (min-width: 411px) {
+ 
+  nav {
+    height: 3rem;
+  }
+  h4 {
+    font-size: 18px !important;
+  }
+
+  h6 {
+    font-size: 16px !important;
+  }
+  p{
+    font-size: 12px !important;
+  }
+  label {
+    font-size: 12px !important;
+  }
+  input {
+    font-size: 16px !important;
+  }
+  footer {
+    font-size: 13px !important;
+  }
+  ion-icon {
+    font-size: 25px !important;
+  }
+}
